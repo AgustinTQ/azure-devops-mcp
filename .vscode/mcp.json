@@ -1,13 +1,13 @@
 {
   "inputs": [
     {
-      "id": "AIP_DEVOPS_MCP_SERVER",
+      "id": "ado_org",
       "type": "promptString",
-      "description": "AIP DevOps"
+      "description": "Azure DevOps organization name  (e.g. 'contoso')"
     }
   ],
   "servers": {
-    "ado": {
+    "AIP ADO": {
       "type": "stdio",
       "command": "npx",
       "args": ["-y", "@azure-devops/mcp", "${input:ado_org}"]
