@@ -1,9 +1,9 @@
 {
   "inputs": [
     {
-      "id": "ado_org",
+      "id": "arroyoconsultingco",
       "type": "promptString",
-      "description": "Azure DevOps organization name  (e.g. 'contoso')"
+      "description": "Azure DevOps organization name arroyoconsultingco"
     }
   ],
   "servers": {
