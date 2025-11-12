@@ -1,1 +1,16 @@
-../mcp.json
+{
+  "inputs": [
+    {
+      "id": "AIP_DEVOPS_MCP_SERVER",
+      "type": "promptString",
+      "description": "AIP DevOps "
+    }
+  ],
+  "servers": {
+    "ado": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@azure-devops/mcp", "${input:ado_org}"]
+    }
+  }
+}
