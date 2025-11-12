@@ -3,7 +3,7 @@
     {
       "id": "AIP_DEVOPS_MCP_SERVER",
       "type": "promptString",
-      "description": "AIP DevOps "
+      "description": "AIP DevOps"
     }
   ],
   "servers": {
